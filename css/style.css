@@ -2,32 +2,162 @@
 /* -Подскажите, почему в кнопки не подтягивает font-family с body?
 -введи для кнопки font-family:inherit */
 
-/* :root {--primary-text-color: #212121;}
-
-body {color: var(--primary-text-color);
-      font-family: Arial, Helvetica, sans-serif;} */
 :root {--white-color: #FFFFFF;
     --black-color: #212121;
     --blue-color: #2196F3;
-    --grey-color: #757575;}
+    --grey-color: #757575;
+    --outline: 2px solid tomato;}
 
 /* селекторы тегов */
 ul {list-style: none;}
 a   {text-decoration: none;}
-footer {background-color: #2F303A;}
-header {background-color: var(--white-color);}
-main {background-color: #E5E5E5;}
-h2  {font-family: Roboto;
+
+
+                                                    /* PORTFOLIO MAIN */
+.button:hover,
+.button:focus {
+    background-color: var(--blue-color);
+    color: var(--white-color);} 
+                                                    
+.main-portfolio {
+    outline: var(--outline);
+    background: #FFFFFF;
+}
+
+.button {
+    font-family: Roboto, sans-serif, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+}
+
+.abzac-menu {
+    font-family: Roboto, sans-serif, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+}
+
+.felx-outline {outline: var(--outline);}
+
+.h2-portfolio {
+    font-family: Roboto, sans-serif, serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    color: var(--black-color);}
-body 
+    letter-spacing: 0.06em;
+    color: var(--black-color);
+}
 
-/* селекторы классов HEADER*/
+.hidden {
+    font-family: Roboto, sans-serif, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+}
+
+                                                    /* STUDIO MAIN */
+
+.h1-studio {
+    font-family: Roboto, sans-serif, serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.order {
+    font-family: Roboto, sans-serif, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+}
+
+.features-name {
+    font-family: Roboto, sans-serif, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+}
+
+.features-title {
+    font-family: Roboto, sans-serif, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.9;
+    color: var(--grey-color);
+    }
+
+.h2-studio {
+    font-family: Roboto, sans-serif, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+}
+
+.soft {
+    font-family: Roboto, sans-serif, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+}
+
+.user {
+    font-family: Roboto, sans-serif, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+}
+
+.user-skill {
+    font-family: Roboto, sans-serif, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+}
+
+
+
+
+                      /* <------------------------------------ ОБЩИЕ СЕЛЕКТОРЫ ------------------------------------> */
+
+                                                      /* HEADER */
+header {background-color: var(--white-color);}
+
 .nav-menu {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -40,9 +170,9 @@ body
 .nav-contact:hover,
 .nav-contact:focus{color: var(--blue-color);}
 
-.web-studio {
+.logo {
     color: var(--blue-color);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif, serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -51,9 +181,8 @@ body
 .studio-header {
     color: var(--black-color);
 }
-
 .nav-contact {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -62,37 +191,26 @@ body
 
     color: var(--grey-color);
 }
-
-/* селекторы классов MAIN */
-.button {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
-    color: var(--black-color);
+.header {
+    background: #FFFFFF;
+    margin-bottom: 20px;
+    outline: var(--outline);
+    
+}
+.nav-logo {
+    width: 153px;
+    height: 31px;
+    left: 200px;`
+    top: 24px;
 }
 
-.abzac-menu {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.9;
-    color: var(--grey-color);
-}
+                                                            /* FOOTER */
+footer {background-color: #2F303A;}     
 
-.button:hover,
-.button:focus {
-    background-color: var(--blue-color);
-    color: var(--white-color);}
-
-/* селекторы классов FOOTER */
 .studio-footer {color: var(--white-color);}
 
 .footer-adress {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -101,7 +219,7 @@ body
 }
 
 .footer-contact {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -110,7 +228,7 @@ body
 }
 
 .footer-connect {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif, serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -119,7 +237,7 @@ body
 }
 
 .dno {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif, serifs;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -129,3 +247,7 @@ body
 
 .footer-contact:hover,
 .footer-contact:focus{color: var(--blue-color)}
+.footer {
+    outline: var(--outline);
+}
+
