@@ -1,0 +1,131 @@
+
+/* -Подскажите, почему в кнопки не подтягивает font-family с body?
+-введи для кнопки font-family:inherit */
+
+/* :root {--primary-text-color: #212121;}
+
+body {color: var(--primary-text-color);
+      font-family: Arial, Helvetica, sans-serif;} */
+:root {--white-color: #FFFFFF;
+    --black-color: #212121;
+    --blue-color: #2196F3;
+    --grey-color: #757575;}
+
+/* селекторы тегов */
+ul {list-style: none;}
+a   {text-decoration: none;}
+footer {background-color: #2F303A;}
+header {background-color: var(--white-color);}
+main {background-color: #E5E5E5;}
+h2  {font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--black-color);}
+body 
+
+/* селекторы классов HEADER*/
+.nav-menu {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--black-color);
+}
+.nav-menu:hover,
+.nav-menu:focus,
+.nav-contact:hover,
+.nav-contact:focus{color: var(--blue-color);}
+
+.web-studio {
+    color: var(--blue-color);
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.studio-header {
+    color: var(--black-color);
+}
+
+.nav-contact {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+
+    color: var(--grey-color);
+}
+
+/* селекторы классов MAIN */
+.button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+}
+
+.abzac-menu {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--grey-color);
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--blue-color);
+    color: var(--white-color);}
+
+/* селекторы классов FOOTER */
+.studio-footer {color: var(--white-color);}
+
+.footer-adress {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--white-color);
+}
+
+.footer-contact {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-connect {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    color: var(--white-color);
+}
+
+.dno {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.footer-contact:hover,
+.footer-contact:focus{color: var(--blue-color)}
