@@ -1,253 +1,262 @@
-
 /* -Подскажите, почему в кнопки не подтягивает font-family с body?
 -введи для кнопки font-family:inherit */
 
-:root {--white-color: #FFFFFF;
-    --black-color: #212121;
-    --blue-color: #2196F3;
-    --grey-color: #757575;
-    --outline: 2px solid tomato;}
+:root {
+  --white-color: #ffffff;
+  --black-color: #212121;
+  --blue-color: #2196f3;
+  --grey-color: #757575;
+  --outline: 2px solid tomato;
+}
 
 /* селекторы тегов */
-ul {list-style: none;}
-a   {text-decoration: none;}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
 
-
-                                                    /* PORTFOLIO MAIN */
+/* PORTFOLIO MAIN */
 .button:hover,
 .button:focus {
-    background-color: var(--blue-color);
-    color: var(--white-color);} 
-                                                    
+  background-color: var(--blue-color);
+  color: var(--white-color);
+}
+
 .main-portfolio {
-    outline: var(--outline);
-    background: #FFFFFF;
+  outline: var(--outline);
+  background: #ffffff;
 }
 
 .button {
-    font-family: Roboto, sans-serif, serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
-    color: var(--black-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--black-color);
 }
 
 .abzac-menu {
-    font-family: Roboto, sans-serif, serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.9;
-    letter-spacing: 0.03em;
-    color: var(--grey-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--grey-color);
 }
 
-.felx-outline {outline: var(--outline);}
+.felx-outline {
+  outline: var(--outline);
+}
 
 .h2-portfolio {
-    font-family: Roboto, sans-serif, serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: var(--black-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black-color);
 }
 
 .hidden {
-    font-family: Roboto, sans-serif, serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.5;
-    letter-spacing: 0.03em;
-    color: var(--white-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
 }
 
-                                                    /* STUDIO MAIN */
+/* STUDIO MAIN */
 
 .h1-studio {
-    font-family: Roboto, sans-serif, serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--white-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
 }
 
 .order {
-    font-family: Roboto, sans-serif, serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.06em;
-    color: var(--white-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
 }
 
 .features-name {
-    font-family: Roboto, sans-serif, serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.03em;
-    color: var(--black-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black-color);
 }
 
 .features-title {
-    font-family: Roboto, sans-serif, serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.9;
-    color: var(--grey-color);
-    }
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.9;
+  color: var(--grey-color);
+}
 
 .h2-studio {
-    font-family: Roboto, sans-serif, serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: var(--black-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--black-color);
 }
 
 .soft {
-    font-family: Roboto, sans-serif, serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.03em;
-    color: var(--white-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
 }
 
 .user {
-    font-family: Roboto, sans-serif, serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: var(--black-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--black-color);
 }
 
 .user-skill {
-    font-family: Roboto, sans-serif, serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: var(--grey-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--grey-color);
 }
 
+/* <------------------------------------ ОБЩИЕ СЕЛЕКТОРЫ ------------------------------------> */
 
-
-
-                      /* <------------------------------------ ОБЩИЕ СЕЛЕКТОРЫ ------------------------------------> */
-
-                                                      /* HEADER */
-header {background-color: var(--white-color);}
+/* HEADER */
+header {
+  background-color: var(--white-color);
+}
 
 .nav-menu {
-    font-family: Roboto, sans-serif, serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
-    color: var(--black-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--black-color);
 }
 .nav-menu:hover,
 .nav-menu:focus,
 .nav-contact:hover,
-.nav-contact:focus{color: var(--blue-color);}
+.nav-contact:focus {
+  color: var(--blue-color);
+}
 
 .logo {
-    color: var(--blue-color);
-    font-family: Raleway, sans-serif, serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
+  color: var(--blue-color);
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 .studio-header {
-    color: var(--black-color);
+  color: var(--black-color);
 }
 .nav-contact {
-    font-family: Roboto, sans-serif, serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 
-    color: var(--grey-color);
+  color: var(--grey-color);
 }
 .header {
-    background: #FFFFFF;
-    margin-bottom: 20px;
-    outline: var(--outline);
-    
-}
-.nav-logo {
-    width: 153px;
-    height: 31px;
-    left: 200px;`
-    top: 24px;
+  background: #ffffff;
+  margin-bottom: 20px;
+  outline: var(--outline);
 }
 
-                                                            /* FOOTER */
-footer {background-color: #2F303A;}     
+/* FOOTER */
+footer {
+  background-color: #2f303a;
+}
 
-.studio-footer {color: var(--white-color);}
+.studio-footer {
+  color: var(--white-color);
+}
 
 .footer-adress {
-    font-family: Roboto, sans-serif, serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    color: var(--white-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--white-color);
 }
 
 .footer-contact {
-    font-family: Roboto, sans-serif, serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-connect {
-    font-family: Roboto, sans-serif, serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.1;
-    color: var(--white-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: var(--white-color);
 }
 
-.dno {
-    font-family: Roboto, sans-serif, serifs;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 2;
-    color: rgba(255, 255, 255, 0.4);
+.developed {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  color: rgba(255, 255, 255, 0.4);
 }
 
 .footer-contact:hover,
-.footer-contact:focus{color: var(--blue-color)}
-.footer {
-    outline: var(--outline);
+.footer-contact:focus {
+  color: var(--blue-color);
 }
-
+.footer {
+  outline: var(--outline);
+}
