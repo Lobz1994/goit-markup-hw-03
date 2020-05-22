@@ -22,202 +22,274 @@
     <!--HEADER-->
     <header class="header">
       <!--Шапка сайта-->
-      <nav class="nav">
-        <a href="./index.html" class="logo"
-          >Web<span class="studio-header"> Studio</span></a
-        >
-        <ul class="nav-list">
-          <li><a href="./index.html" class="nav-menu">Студия</a></li>
-          <li><a href="./portfolio.html" class="nav-menu">Портфолио</a></li>
-          <li><a href="" class="nav-menu">Контакты</a></li>
-        </ul>
-      </nav>
-      <ul>
-        <li>
-          <img src="./images/svg/mail.svg" alt="отправить" />
-          <a href="mailto:info@devstudio.com" class="nav-contact"
-            >info@devstudio.com</a
+      <div class="container-header">
+        <nav class="items-nav">
+          <a href="./index.html" class="logo"
+            >Web <span class="studio-header"> Studio</span></a
           >
-        </li>
-        <li>
-          <img src="./images/svg/phone.svg" alt="позвонить" />
-          <a href="tel:+380961111111" class="nav-contact">+38 096 111 11 11</a>
-        </li>
-      </ul>
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a href="./index.html" class="nav-menu">Студия</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./portfolio.html" class="nav-menu">Портфолио</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="" class="nav-menu">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="container-connection">
+          <ul class="container-connection-items">
+            <li class="list-connection">
+              <img src="./images/svg/mail.svg" alt="отправить" />
+              <a href="mailto:info@devstudio.com" class="nav-contact"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="list-connection">
+              <img src="./images/svg/phone.svg" alt="позвонить" />
+              <a href="tel:+380961111111" class="nav-contact"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <main class="main-portfolio">
       <!-- MAIN -->
-      <h1>Заголовок h1, который скроется</h1>
+      <div class="section-portfolio">
+        <section class="container-lead">
+          <h1>Заголовок h1, который скроется</h1>
 
-      <!-- menu page -->
+          <!-- menu page -->
 
-      <ul class="portfolio-filter">
-        <li><button type="button" class="button">Все</button></li>
-        <li><button type="button" class="button">Веб-сайты</button></li>
-        <li><button type="button" class="button">Приложения</button></li>
-        <li><button type="button" class="button">Дизайн</button></li>
-        <li><button type="button" class="button">Маркетинг</button></li>
-      </ul>
-      <!-- flexBox -->
-      <ul>
-        <li class="felx-outline">
-          <a href=""
-            ><img src="./images/jpg/img1.jpg" alt="технокряк" />
-            <h2 class="h2-portfolio">Технокряк</h2>
-            <p class="abzac-menu">Веб-сайт</p>
-            <h3 class="hidden">
-              Технокряк это современная площадка распространения коронавируса.
-              Компании используют эту платформу для цифрового шпионажа и атак на
-              защищённые сервера конкурентов.
-            </h3>
-          </a>
-        </li>
-        <li class="felx-outline">
-          <a href=""
-            ><img src="./images/jpg/img.jpg" alt="постер" />
-            <h2 class="h2-portfolio">Постер New Orlean vs Golden Stars</h2>
-            <p class="abzac-menu">Дизайн</p>
-            <h3 class="hidden">
-              Технокряк это современная площадка распространения коронавируса.
-              Компании используют эту платформу для цифрового шпионажа и атак на
-              защищённые сервера конкурентов.
-            </h3>
-          </a>
-        </li>
-        <li class="felx-outline">
-          <a href=""
-            ><img src="./images/jpg/img(1).jpg" alt="ресторан" />
-            <h2 class="h2-portfolio">Ресторан Seafood</h2>
-            <p class="abzac-menu">Приложение</p></a
-          >
-          <h3 class="hidden">
-            Технокряк это современная площадка распространения коронавируса.
-            Компании используют эту платформу для цифрового шпионажа и атак на
-            защищённые сервера конкурентов.
-          </h3>
-        </li>
-        <li class="felx-outline">
-          <a href=""
-            ><img src="./images/jpg/img(2).jpg" alt="проект прайм" />
-            <h2 class="h2-portfolio">Проект Prime</h2>
-            <p class="abzac-menu">Маркетинг</p></a
-          >
-          <h3 class="hidden">
-            Технокряк это современная площадка распространения коронавируса.
-            Компании используют эту платформу для цифрового шпионажа и атак на
-            защищённые сервера конкурентов.
-          </h3>
-        </li>
-        <li class="felx-outline">
-          <a href=""
-            ><img src="./images/jpg/img(3).jpg" alt="проект коробка" />
-            <h2 class="h2-portfolio">Проект Boxes</h2>
-            <p class="abzac-menu">Приложение</p></a
-          >
-          <h3 class="hidden">
-            Технокряк это современная площадка распространения коронавируса.
-            Компании используют эту платформу для цифрового шпионажа и атак на
-            защищённые сервера конкурентов.
-          </h3>
-        </li>
-        <li class="felx-outline">
-          <a href=""
-            ><img src="./images/jpg/img(4).jpg" alt="вдохновение" />
-            <h2 class="h2-portfolio">Inspiration has no Borders</h2>
-            <p class="abzac-menu">Веб-сайт</p></a
-          >
-          <h3 class="hidden">
-            Технокряк это современная площадка распространения коронавируса.
-            Компании используют эту платформу для цифрового шпионажа и атак на
-            защищённые сервера конкурентов.
-          </h3>
-        </li>
-        <li class="felx-outline">
-          <a href=""
-            ><img src="./images/jpg/img(5).jpg" alt="издание" />
-            <h2 class="h2-portfolio">Издание Limited Edition</h2>
-            <p class="abzac-menu">Дизайн</p></a
-          >
-          <h3 class="hidden">
-            Технокряк это современная площадка распространения коронавируса.
-            Компании используют эту платформу для цифрового шпионажа и атак на
-            защищённые сервера конкурентов.
-          </h3>
-        </li>
-        <li class="felx-outline">
-          <a href=""
-            ><img src="./images/jpg/img(6).jpg" alt="проект кряк" />
-            <h2 class="h2-portfolio">Проект LAB</h2>
-            <p class="abzac-menu">Маркетинг</p></a
-          >
-          <h3 class="hidden">
-            Технокряк это современная площадка распространения коронавируса.
-            Компании используют эту платформу для цифрового шпионажа и атак на
-            защищённые сервера конкурентов.
-          </h3>
-        </li>
-        <li class="felx-outline">
-          <a href=""
-            ><img src="./images/jpg/img(7).jpg" alt="бизнес" />
-            <h2 class="h2-portfolio">Growing Business</h2>
-            <p class="abzac-menu">Приложение</p></a
-          >
-          <h3 class="hidden">
-            Технокряк это современная площадка распространения коронавируса.
-            Компании используют эту платформу для цифрового шпионажа и атак на
-            защищённые сервера конкурентов.
-          </h3>
-        </li>
-      </ul>
-    </main>
-
-    <!--FOOTER-->
-    <footer class="footer">
-      <section>
-        <a href="./index.html" class="logo"
-          >Web<span class="studio-footer"> Studio</span></a
-        >
-        <h2 class="footer-adress">г. Киев, пр-т Леси Украинки, 26</h2>
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com" class="footer-contact"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+380961111111" class="footer-contact"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </section>
-      <div>
-        <p class="footer-connect">присоединяйтесь</p>
-        <ul>
-          <li>
-            <a href=""
-              ><img src="./images/svg/insta-footer.svg" alt="интсаграмм"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="./images/svg/twitter-footer.svg" alt="твиттер"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="./images/svg/facebook-footer.svg" alt="фейстбук"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="./images/svg/linkid-footer.svg" alt="линкид"
-            /></a>
-          </li>
-        </ul>
+          <ul class="portfolio-filter">
+            <li><button type="button" class="button">Все</button></li>
+            <li><button type="button" class="button">Веб-сайты</button></li>
+            <li><button type="button" class="button">Приложения</button></li>
+            <li><button type="button" class="button">Дизайн</button></li>
+            <li><button type="button" class="button">Маркетинг</button></li>
+          </ul>
+        </section>
+        <!-- flexBox -->
+        <section class="container-box">
+          <ul class="box-items">
+            <li class="felx-outline">
+              <a href=""
+                ><img
+                  src="./images/jpg/img1.jpg"
+                  width="370"
+                  height="294"
+                  alt="технокряк"
+                />
+                <h2 class="h2-portfolio">Технокряк</h2>
+                <p class="abzac-menu">Веб-сайт</p>
+                <h3 class="hidden">
+                  Технокряк это современная площадка распространения
+                  коронавируса. Компании используют эту платформу для цифрового
+                  шпионажа и атак на защищённые сервера конкурентов.
+                </h3>
+              </a>
+            </li>
+            <li class="felx-outline">
+              <a href=""
+                ><img
+                  src="./images/jpg/img.jpg"
+                  width="370"
+                  height="294"
+                  alt="постер"
+                />
+                <h2 class="h2-portfolio">Постер New Orlean vs Golden Stars</h2>
+                <p class="abzac-menu">Дизайн</p>
+                <h3 class="hidden">
+                  Технокряк это современная площадка распространения
+                  коронавируса. Компании используют эту платформу для цифрового
+                  шпионажа и атак на защищённые сервера конкурентов.
+                </h3>
+              </a>
+            </li>
+            <li class="felx-outline">
+              <a href=""
+                ><img
+                  src="./images/jpg/img(1).jpg"
+                  width="370"
+                  height="294"
+                  alt="ресторан"
+                />
+                <h2 class="h2-portfolio">Ресторан Seafood</h2>
+                <p class="abzac-menu">Приложение</p>
+              </a>
+              <h3 class="hidden">
+                Технокряк это современная площадка распространения коронавируса.
+                Компании используют эту платформу для цифрового шпионажа и атак
+                на защищённые сервера конкурентов.
+              </h3>
+            </li>
+            <li class="felx-outline">
+              <a href=""
+                ><img
+                  src="./images/jpg/img(2).jpg"
+                  width="370"
+                  height="294"
+                  alt="проект прайм"
+                />
+                <h2 class="h2-portfolio">Проект Prime</h2>
+                <p class="abzac-menu">Маркетинг</p>
+              </a>
+              <h3 class="hidden">
+                Технокряк это современная площадка распространения коронавируса.
+                Компании используют эту платформу для цифрового шпионажа и атак
+                на защищённые сервера конкурентов.
+              </h3>
+            </li>
+            <li class="felx-outline">
+              <a href=""
+                ><img
+                  src="./images/jpg/img(3).jpg"
+                  width="370"
+                  height="294"
+                  alt="проект коробка"
+                />
+                <h2 class="h2-portfolio">Проект Boxes</h2>
+                <p class="abzac-menu">Приложение</p>
+              </a>
+              <h3 class="hidden">
+                Технокряк это современная площадка распространения коронавируса.
+                Компании используют эту платформу для цифрового шпионажа и атак
+                на защищённые сервера конкурентов.
+              </h3>
+            </li>
+            <li class="felx-outline">
+              <a href=""
+                ><img
+                  src="./images/jpg/img(4).jpg"
+                  width="370"
+                  height="294"
+                  alt="вдохновение"
+                />
+                <h2 class="h2-portfolio">Inspiration has no Borders</h2>
+                <p class="abzac-menu">Веб-сайт</p>
+              </a>
+              <h3 class="hidden">
+                Технокряк это современная площадка распространения коронавируса.
+                Компании используют эту платформу для цифрового шпионажа и атак
+                на защищённые сервера конкурентов.
+              </h3>
+            </li>
+            <li class="felx-outline">
+              <a href=""
+                ><img
+                  src="./images/jpg/img(5).jpg"
+                  width="370"
+                  height="294"
+                  alt="издание"
+                />
+                <h2 class="h2-portfolio">Издание Limited Edition</h2>
+                <p class="abzac-menu">Дизайн</p>
+              </a>
+              <h3 class="hidden">
+                Технокряк это современная площадка распространения коронавируса.
+                Компании используют эту платформу для цифрового шпионажа и атак
+                на защищённые сервера конкурентов.
+              </h3>
+            </li>
+            <li class="felx-outline">
+              <a href=""
+                ><img
+                  src="./images/jpg/img(6).jpg"
+                  width="370"
+                  height="294"
+                  alt="проект кряк"
+                />
+                <h2 class="h2-portfolio">Проект LAB</h2>
+                <p class="abzac-menu">Маркетинг</p>
+              </a>
+              <h3 class="hidden">
+                Технокряк это современная площадка распространения коронавируса.
+                Компании используют эту платформу для цифрового шпионажа и атак
+                на защищённые сервера конкурентов.
+              </h3>
+            </li>
+            <li class="felx-outline">
+              <a href=""
+                ><img
+                  src="./images/jpg/img(7).jpg"
+                  width="370"
+                  height="294"
+                  alt="бизнес"
+                />
+                <h2 class="h2-portfolio">Growing Business</h2>
+                <p class="abzac-menu">Приложение</p>
+              </a>
+              <h3 class="hidden">
+                Технокряк это современная площадка распространения коронавируса.
+                Компании используют эту платформу для цифрового шпионажа и атак
+                на защищённые сервера конкурентов.
+              </h3>
+            </li>
+          </ul>
+        </section>
       </div>
-      <p class="developed">2020 | Developed by GoIT Students</p>
+    </main>
+    <!--FOOTER-->
+    <footer class="footer-page">
+      <div class="container-footer">
+        <div class="footer-content">
+          <div class="container-adress">
+            <a href="./index.html" class="logo"
+              >Web<span class="studio-footer"> Studio</span></a
+            >
+            <h2 class="footer-adress">г. Киев, пр-т Леси Украинки, 26</h2>
+            <ul class="adress-items">
+              <li class="adress-list">
+                <a href="mailto:info@devstudio.com" class="footer-contact"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+380961111111" class="footer-contact"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="join">
+            <p class="footer-connect">присоединяйтесь</p>
+            <ul class="footer-seti">
+              <li class="footer-seti-items">
+                <a href=""
+                  ><img
+                    src="./images/svg/insta-footer.svg"
+                    class="footer-seti-logo"
+                    alt="интсаграмм"
+                /></a>
+              </li>
+              <li class="footer-seti-items">
+                <a href=""
+                  ><img src="./images/svg/twitter-footer.svg" alt="твиттер"
+                /></a>
+              </li>
+              <li class="footer-seti-items">
+                <a href=""
+                  ><img src="./images/svg/facebook-footer.svg" alt="фейстбук"
+                /></a>
+              </li>
+              <li class="footer-seti-items">
+                <a href=""
+                  ><img src="./images/svg/linkid-footer.svg" alt="линкид"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="subscribe">
+            <p class="footer-connect">подпишитесь на рассылку</p>
+          </div>
+        </div>
+        <p class="footer-copyright">2020 | Developed by GoIT Students</p>
+      </div>
     </footer>
   </body>
 </html>
