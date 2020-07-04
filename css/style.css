@@ -22,6 +22,10 @@ body {
   padding-right: 15px;
   margin: 0px auto;
 }
+.padding__container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* селекторы тегов */
 ul {
   list-style: none;
@@ -122,19 +126,11 @@ header {
   color: var(--grey-color);
 }
 /* STUDIO MAIN */
-.main-studio {
-  display: flex;
-  flex-direction: column;
-  width: 1200px;
-}
-
 .hero {
   background-color: gray;
   height: 600px;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
   justify-content: center;
 }
 
@@ -178,10 +174,7 @@ border-radius: 4px;
 }
 
 .section-features {
-  width: 1200px;
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
   padding-left: 15px;
   padding-right: 15px;
   align-items: center;
@@ -196,8 +189,6 @@ border-radius: 4px;
 }
 
 .section-desktop {
-  padding-top: 94px;
-  padding-bottom: 94px;
   border-top: 1px solid #ececec;
 }
 .desktop-list {
@@ -260,8 +251,6 @@ border-radius: 4px;
   align-items: center;
   flex-direction: column;
   background: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .h2-studio {
   text-align: center;
@@ -347,8 +336,6 @@ border-radius: 4px;
 .section-client {
   display: flex;
   flex-direction: column;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .logo-client {
   display: flex;
@@ -377,15 +364,7 @@ border-radius: 4px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.container-lead {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  text-align: center;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -409,11 +388,6 @@ border-radius: 4px;
 .filter-items:last-child {
   margin-right: 0;
 }
-.container-box {
-  display: flex;
-  width: 1200px;
-  margin-bottom: 94px;
-}
 .box-items {
   display: flex;
   flex-wrap: wrap;
@@ -428,9 +402,7 @@ border-radius: 4px;
   margin-bottom: 30px;
 }
 .portfolio-content {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 24px;
+  padding: 20px 24px;
 
   background: #FFFFFF;
   border-left: 1px solid #EEEEEE;
@@ -455,6 +427,7 @@ border-radius: 4px;
   background: #f5f4fa;
   border-radius: 4px;
   border: 1px;
+  padding: 6px 22px;
 
   font-family: Roboto, sans-serif;
   font-style: normal;
